@@ -5,6 +5,7 @@ from .kernel_methods import *
 from .vector_methods import *
 from .metrics import *
 from .clustering import *
+from .adapter import *
 
 __all__ = [
     "PersistenceImage",
@@ -33,5 +34,7 @@ __all__ = [
 
     "MapperComplex",
     "ToMATo",
-    "DistanceToMeasure"
+    "DistanceToMeasure",
+
+    "create_mapper_complex_from_kmapper"
 ]
